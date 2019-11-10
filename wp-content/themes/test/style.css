@@ -1,0 +1,77 @@
+
+/*
+Theme Name: Тестовая тема
+Author: webformyself
+Author URI: https://webformyself.com/
+Description: Описание тестовой темы
+// Text Domain:test
+*/
+p {
+  font-size: 20px; }
+
+.card{
+  margin-bottom: 30px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+ul.page-numbers {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  border-radius: .25rem;
+  justify-content: center !important;
+}
+
+ul.page-numbers li:first-child .page-link {
+  margin-left: 0;
+  border-top-left-radius: .25rem;
+  border-bottom-left-radius: .25rem;
+}
+ul.page-numbers li:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+a.page-numbers,
+span.current{
+  position: relative;
+  display: block;
+  padding: .5rem .75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #007bff;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+span.current{
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  cursor: default;
+}
+span.dots{
+  position: relative;
+  display: block;
+  padding: .5rem .75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #007bff;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  cursor: default;
+}
+nav.navigation{
+  width: 100%;
+}
+.wrapper {
+  margin: 20px 0;
+}
+
+.collapse {
+
+  display: block;
+
+}
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlc2hlZXQuc2FzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQTtFQUNFLGVBQWUsRUFBQTs7QUFHakI7RUFDRSxtQkFBbUIsRUFBQTs7QUFDckI7RUFDRSxlQUFlO0VBQ2YsWUFBWSxFQUFBIiwiZmlsZSI6InN0eWxlLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIlxucCB7XG4gIGZvbnQtc2l6ZTogMjBweDsgfVxuXG5cbi5jYXJkIHtcbiAgbWFyZ2luLWJvdHRvbTogMzBweDsgfVxuaW1nIHtcbiAgbWF4LXdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IGF1dG87IH1cbiJdfQ== */
